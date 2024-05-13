@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/lemmatizer",
+  "version": "1.0.0",
+  "description": "Lemmatizer is a simple tool for lemmatizing text. It returns the lemmatized text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/lemmatizer-API.git"
+  },
+  "keywords": [
+    "lemmatizer"," lemmatizer api"," lemmatizer tool"," lemmatizer software"," lemmatizer service"," lemmatizer library"," lemmatizer sdk"," lemmatizer code"," lemmatizer script"," lemmatizer program"," lemmatizer application"," lemmatizer app"," lemmatizer utility"," lemmatizer helper"," lemmatizer helper tool"," lemmatizer helper software"," lemmatizer helper service"," lemmatizer helper library"," lemmatizer helper sdk"," lemmatizer helper code"," lemmatizer helper script"," lemmatizer helper program"," lemmatizer helper application"," lemmatizer helper app"," lemmatizer helper utility"," lemmatizer helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/lemmatizer-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/lemmatizer-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
