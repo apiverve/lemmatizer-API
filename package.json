@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/lemmatizer-API.git"
   },
   "keywords": [
-    "lemmatizer"," lemmatizer api"," lemmatizer tool"," lemmatizer software"," lemmatizer service"," lemmatizer library"," lemmatizer sdk"," lemmatizer code"," lemmatizer script"," lemmatizer program"," lemmatizer application"," lemmatizer app"," lemmatizer utility"," lemmatizer helper"," lemmatizer helper tool"," lemmatizer helper software"," lemmatizer helper service"," lemmatizer helper library"," lemmatizer helper sdk"," lemmatizer helper code"," lemmatizer helper script"," lemmatizer helper program"," lemmatizer helper application"," lemmatizer helper app"," lemmatizer helper utility"," lemmatizer helper"
+    "lemmatizer","lemmatizer api","lemmatizer tool","lemmatizer software","lemmatizer service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
