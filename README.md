@@ -1,4 +1,4 @@
-Text Lemmatization API
+Text Lemmatizer API
 ============
 
 Lemmatizer is a simple tool for lemmatizing text. It returns the lemmatized text.
@@ -7,7 +7,7 @@ Lemmatizer is a simple tool for lemmatizing text. It returns the lemmatized text
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Javascript Wrapper for the [Text Lemmatization API](https://apiverve.com/marketplace/api/lemmatizer)
+This is a Javascript Wrapper for the [Text Lemmatizer API](https://apiverve.com/marketplace/api/lemmatizer)
 
 ---
 
@@ -25,7 +25,7 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The Text Lemmatization API documentation is found here: [https://docs.apiverve.com/api/lemmatizer](https://docs.apiverve.com/api/lemmatizer).  
+The Text Lemmatizer API documentation is found here: [https://docs.apiverve.com/api/lemmatizer](https://docs.apiverve.com/api/lemmatizer).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -48,7 +48,7 @@ Using the API client, you can perform requests to the API.
 
 ```
 var query = {
-  "text": "The quick brown foxes jumped over the lazy dogs and other foxes"
+  "text": "The cats ran from door to door"
 };
 ```
 
@@ -71,17 +71,11 @@ api.execute(query, function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "found": 9,
+    "found": 3,
     "lemmas": {
-      "quick": 1,
-      "brown": 1,
-      "fox": 2,
-      "jump": 1,
-      "over": 1,
-      "lazi": 1,
-      "dog": 1,
-      "and": 1,
-      "other": 1
+      "cat": 1,
+      "ran": 1,
+      "door": 2
     }
   }
 }
