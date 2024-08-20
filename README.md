@@ -77,7 +77,8 @@ api.execute(query, function (error, data) {
       "ran": 1,
       "door": 2
     }
-  }
+  },
+  "code": 200
 }
 ```
 
