@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/lemmatizer",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Lemmatizer is a simple tool for lemmatizing text. It returns the lemmatized text.",
   "main": "index.js",
   "scripts": {
